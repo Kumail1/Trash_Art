@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.trashmasti.trashmasti" version="1.0.9" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <feature name="Camera">
+        <param name="browser-package" value="Camera" />
+    </feature>
+    <feature name="Device">
+        <param name="browser-package" value="Device" />
+    </feature>
+    <name>Trash Art</name>
+    <description>
+        Turn your Trash into Cash
+
+        Let's sell your scrap thats cover your area into mess. Stop blaming yourself that how can you pick the trash and waste it. Simple download Our TrashMasti App or vist the website TrashArt.com, estimate your scrap value. Trash hero will come to your door step and pick all your recyclables. 
+
+        Stop wasting your time for Kaabar wala to came and buy your recyclable 
+        Now, 
+
+                Selling your Recyclables is just one click away
+
+            Sell your scrap when you free and at home TrashHero will be there on your desired time.
+    </description>
+    <author email="Kumailmehdi3@gmail.com" href="http://trashart.cmcengineering.com.pk/">
+        Koding Beez
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="16" />
+    <preference name="android-targetSdkVersion" value="26" />
+    <preference name="android-maxSdkVersion" value="28" />
+</widget>

@@ -20,7 +20,7 @@ jQuery(document).ready(function($){
         }
        
 
-    $.post("http://trashart.cmcengineering.com.pk/api_users/register.php",form_data, function(resp){
+    $.post("http://trashart.locumset.com/api_users/register.php",form_data, function(resp){
     console.log(resp);
 
                 if(resp == resp) {

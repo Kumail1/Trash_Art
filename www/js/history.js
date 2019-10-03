@@ -20,7 +20,7 @@
      
  	//alert('hello');
 	
-	$.post("http://trashart.cmcengineering.com.pk/api_users/history.php",email, function(getdata){
+	$.post("http://trashart.locumset.com/api_users/history.php",email, function(getdata){
    			//console.log(getdata);	
    			let regex = /\,(?!\s*?[\{\[\"\'\w])/g;
 			let correct = getdata.replace(regex, ''); // remove all trailing commas

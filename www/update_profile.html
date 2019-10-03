@@ -167,17 +167,17 @@ var user = window.localStorage["n"];
            var email = 'email='+user;
 
   //alert('hello');
-  $.post("http://trashart.cmcengineering.com.pk/api_users/user_img.php",email, function(resp){
+  $.post("http://trashart.locumset.com/api_users/user_img.php",email, function(resp){
     console.log(resp);
       let data = JSON.parse(resp); // build a new JSON object based on correct string
 
 
-             var img = 'http://trashart.cmcengineering.com.pk/'+data.image+'" style= " border-radius: 100px; width:150px;height:150px; margin-bottom:25px; margin-left:-135px;">';
+             var img = 'http://trashart.locumset.com/'+data.image+'" style= " border-radius: 100px; width:150px;height:150px; margin-bottom:25px; margin-left:-135px;">';
         $('#img').append(img);
       
 });
 
-  $.post("http://trashart.cmcengineering.com.pk/api_users/user_data.php",email, function(resp){
+  $.post("http://trashart.locumset.com/api_users/user_data.php",email, function(resp){
     console.log(resp);
       let data = JSON.parse(resp); // build a new JSON object based on correct string
       //console.log(data.name);
@@ -200,7 +200,7 @@ var user = window.localStorage["n"];
         console.log(comp);
         //console.log(id);
 
-    $.post("http://trashart.cmcengineering.com.pk/api_users/update_profile.php",comp, function(resp){
+    $.post("http://trashart.locumset.com/api_users/update_profile.php",comp, function(resp){
     console.log(resp);
 
                 if(resp == resp) {

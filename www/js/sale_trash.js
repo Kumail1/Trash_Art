@@ -18,7 +18,7 @@ if (window.navigator.onLine == false) {
 				 	alert("Please Chek Your Internet Connection.");
 				}
 	$.ajax({
- 		url:'http://trashart.cmcengineering.com.pk/api_users/sale_trash.php',
+ 		url:'http://trashart.locumset.com/api_users/sale_trash.php',
  		type:'post',
  		success:function(getdata){
  			  //console.log(getdata);

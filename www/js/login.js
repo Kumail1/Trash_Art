@@ -30,7 +30,7 @@ $('#loginForm').on('submit', function(event){
  		}
  		console.log(data);
 		if(n != '' && p != '') {	
-			$.post('http://trashart.cmcengineering.com.pk/api_users/login.php', data,function(resp){
+			$.post('http://trashart.locumset.com/api_users/login.php', data,function(resp){
 			
 			console.log(resp);
 
